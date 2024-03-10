@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row my-2">
+    <div class="col-12 mx-auto text-center my-2">
+      <h1>Register into Defect Dojo</h1>
+    </div>
+  </div>
+  <div class="row mx-auto">
+    <div class="col-8 mx-auto">
+      <form class="border-black border">
+        <label class="form-label" for="reg-firstName">First name</label>
+        <input class="form-control" id=reg-firstName type="text" name="firstName" ngModel required>
+
+        <label class="form-label" for="reg-lastName">Last name</label>
+        <input class="form-control" id=reg-lastName type="text" name="lastName" ngModel required>
+
+        <label class="form-label" for="reg-email">Email</label>
+        <input class="form-control" id=reg-email type="email" name="email" ngModel required>
+
+        <label class="form-label" for="reg-reason">Tell us why you need an access to defect dojo</label>
+        <input class="form-control" id="reg-reason" name="reason" ngModel required minlength="3">
+
+        <label class="form-label" for="reg-team">Team</label>
+        <input class="form-control" id="reg-team">
+      </form>
+    </div>
+  </div>
+</div>
+
